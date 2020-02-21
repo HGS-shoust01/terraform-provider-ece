@@ -12,8 +12,10 @@ import (
 	"github.com/hashicorp/terraform/helper/resource"
 )
 
-const elasticsearchResource = "/api/v1/clusters/elasticsearch"
-const kibanaResource = "/api/v1/clusters/kibana"
+//const elasticsearchResource = "/api/v1/clusters/elasticsearch"
+//const kibanaResource = "/api/v1/clusters/kibana"
+const elasticsearchResource = "/api/v1/regions/us-east-1/clusters/elasticsearch"
+const kibanaResource = "/api/v1/regions/us-east-1/clusters/kibana"
 const jsonContentType = "application/json"
 
 // ECEClient is a client used for interactions with the ECE API.
